@@ -1,0 +1,102 @@
+﻿<!doctype html>
+<html lang="en" >
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="author" content="">
+    <meta name="theme-color" content="#925290" />
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>AngularJS</title>
+    <script type="text/javascript">
+        function myFunction() {
+            console.log("insertStd");
+            document.getElementById("insertStd").getAttribute("value");
+        }
+    </script>
+    <style>
+        input.ng-invalid {
+            background-color:lightblue;
+        }
+
+        input.ng-valid {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body ng-app="myapp" ng-controller="appController">
+    <center>
+        <h1>Role Management</h1>
+        <hr />
+        <div ng-init="List()">
+            <table border="1" ng-show="ShowDetail== true">
+                <thead>
+                    <tr>
+                        <th>Role_Id</th>
+                        <th>RoleName</th>
+                        <th>Desigantion</th>
+                        <th>Mobile_Number</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="role in RoleList">
+                        <td>{{$index + 1}}</td>
+                        <td>{{role.RoleName}}</td>
+                        <td>{{role.Desiganation}}</td>
+                        <td>{{role.Mobile_Number}}</td>
+                        <td>{{role.Email}}</td>
+                        <td>
+
+                            <button type="button" value ="update" ng-click="updatedata(role)" class="btn btn-warning">Edit</button>
+                            <button type="button" value ="Delete" ng-click="DeleteEmp(role.RoleId)"  class="btn btn-danger">Delete</button>
+
+
+                        </td>
+
+                    </tr>
+            </table>
+
+        </div>
+        <div>
+            <form name="form1" novalidate>
+                <h3>Add role</h3>
+
+                <lable>RoleName</lable>
+                <input type="text" name="RoleName"  ng-model="role.RoleName" maxlength="20" placeholder="RoleName" required="required" />
+                 
+
+                    <label>Desiganation</label>
+                    <input type="text" name="degi" ng-model="role.Desiganation" placeholder="degianation" ng-trim="true" required />
+                   
+
+                        <lable>Mobile_Number</lable>
+                        <input type="text" name="mobile_number" ng-model="role.Mobile_Number" required />
+                       
+
+                            <lable>Email</lable>
+                            <input type="email" name="email" ng-model="role.Email" required />
+                           
+
+                                <lable>Password</lable>
+                                <input type="password" name="password" ng-model="role.Password" required />
+                              
+
+                                    <br /><br />
+                                    <input type="submit"  value="Insert" ng-click="Input()" ng-disabled="form1.$pristine || form1.$invalid"/>
+
+                                    <input type="button"  ng-if="role.RoleId" value="update" ng-click="updateRole()" />
+</form>
+
+        </div>
+
+    </center>
+
+    <script src="../../Scripts/angular.js"></script>
+    <script src="../../Scripts/angular.min.js" type="text/javascript"></script>
+    <script src="../WorkingJS/RoleMasterjs.js"></script>
+
+</body>
+  
+
+</html>

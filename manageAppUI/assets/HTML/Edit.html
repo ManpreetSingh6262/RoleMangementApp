@@ -1,0 +1,35 @@
+﻿<div id="edit" aria-labelledby="edit" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal" id="edit-form">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="edit-modal-label">Update Employee</h4>
+                </div>
+                <div>
+                <label>Role Id</label>
+                <input type="text" name="RoleId" ng-model="role.RoleId" />
+                <lable>RoleName</lable>
+                <input type="text" name="name" ng-model="role.roleName" />
+                <label>Desiganation</label>
+
+                <input type="text" name="name" ng-model="role.Desiganation" />
+
+                <lable>Mobile_Number</lable>
+                <input type="text" name="mobile_number" ng-model="role.mobile_number" />
+
+                <lable>Email</lable>
+                <input type="text" name="email" ng-model="role.email" />
+
+                <lable>Password</lable>
+                <input type="text" name="password" ng-model="role.password" />
+                <br /><br />
+
+                    <button type="button" class="btn btn-default" >Close</button>
+                    <button type="submit" ng-if="role.RoleId" class="btn btn-primary" ng-click="updateRole()">Update</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>

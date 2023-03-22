@@ -1,0 +1,11 @@
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\bin\Debug\ManageBLL.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\bin\Debug\ManageBLL.pdb
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Debug\ManageBLL.csproj.AssemblyReference.cache
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Debug\ManageBLL.csproj.CoreCompileInputs.cache
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Debug\ManageBLL.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Debug\ManageBLL.pdb
+C:\Users\Khushbu\source\repos\RoleMangementApp\ManageBLL\bin\Debug\ManageBLL.dll
+C:\Users\Khushbu\source\repos\RoleMangementApp\ManageBLL\bin\Debug\ManageBLL.pdb
+C:\Users\Khushbu\source\repos\RoleMangementApp\ManageBLL\obj\Debug\ManageBLL.csproj.CoreCompileInputs.cache
+C:\Users\Khushbu\source\repos\RoleMangementApp\ManageBLL\obj\Debug\ManageBLL.dll
+C:\Users\Khushbu\source\repos\RoleMangementApp\ManageBLL\obj\Debug\ManageBLL.pdb

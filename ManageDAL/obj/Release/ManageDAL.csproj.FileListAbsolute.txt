@@ -1,0 +1,14 @@
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\ManageDAL.dll.config
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\ManageDAL.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\ManageDAL.pdb
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\EntityFramework.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\ManageBLL.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\ManageBLL.pdb
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\EntityFramework.xml
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\obj\Release\ManageDAL.csproj.AssemblyReference.cache
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\obj\Release\ManageDAL.csproj.CoreCompileInputs.cache
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\obj\Release\ManageDAL.csproj.CopyComplete
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\obj\Release\ManageDAL.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageDAL\obj\Release\ManageDAL.pdb

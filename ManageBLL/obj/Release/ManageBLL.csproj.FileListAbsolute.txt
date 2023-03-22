@@ -1,0 +1,6 @@
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\bin\Release\ManageBLL.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\bin\Release\ManageBLL.pdb
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Release\ManageBLL.csproj.AssemblyReference.cache
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Release\ManageBLL.csproj.CoreCompileInputs.cache
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Release\ManageBLL.dll
+C:\Users\Khushbu\source\repos\manageAppUI\ManageBLL\obj\Release\ManageBLL.pdb
